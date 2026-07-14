@@ -28,26 +28,13 @@ body {
 }
 
 .nav-container {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
-}
-
-.logo-section {
-    display: flex;
-    align-items: center;
-    flex-shrink: 0;
-}
-
-.header-logo {
-    height: 60px;
-    width: auto;
-    max-width: 500px;
 }
 
 .logo {
@@ -678,19 +665,6 @@ footer p {
         font-size: 1.6em;
     }
 
-    .nav-container {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .logo-section {
-        width: 100%;
-    }
-
-    .header-logo {
-        height: 50px;
-    }
-
     .nav-links {
         width: 100%;
         flex-direction: column;
@@ -745,8 +719,9 @@ footer p {
         padding: 25px 15px;
     }
 
-    .header-logo {
-        height: 40px;
+    .nav-container {
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .logo {
